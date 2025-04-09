@@ -22,7 +22,7 @@ def on_message(client, userdata, msg):
 client = mqtt.Client()
 client.on_message = on_message
 client.connect("localhost", 1883, 60)
-client.subscribe("drone/#")  # Subscribe to all folders
+client.subscribe("drone/#") 
 
 print("Subscriber listening...")
 client.loop_forever()
