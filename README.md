@@ -6,7 +6,7 @@ Drone Obstacle Detection and Command System
 
 This project implements a drone obstacle detection and command system using MQTT for communication between components. 
 The system consists of four Python scripts that work together to detect obstacles, generate appropriate drone commands, and log all activities.
-
+==================================================
 Overview
 1. drone_subscriber.py
 Subscribes to drone commands and logs them
@@ -42,8 +42,8 @@ Logs the obstacle details
 Generates an appropriate response using generate_response()
 Publishes a command to the drone/commands topic
 Logs all actions to both console and subscriber_log.txt file
-==================================================================
-System Work
+
+System Functions:
 
 obstacle_publisher.py generates and publishes random obstacles
 
